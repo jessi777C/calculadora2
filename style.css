@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: image-set(
+    "https://img.freepik.com/free-vector/modern-soft-brown-color-halftone-style-decorative-background_1055-17945.jpg?w=1800&t=st=1693507509~exp=1693508109~hmac=de1d0bcec7145c27e47c1d4fce629b857076fd70bde22cd2d81705a25affc636"
+  );
+}
+
+.calculadora {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 65%;
+  border-radius: 48px;
+  padding: 20px;
+  background: wheat;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 10);
+}
+.calculadora h1 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.botao {
+  width: 71px;
+  height: 70px;
+  font-size: 15px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: rgb(242, 196, 144);
+  border: none;
+}
+.botao:hover {
+  background-color: burlywood;
+}
+#resultado {
+  background-color: white;
+  width: 300px;
+  height: 40px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: right;
+  padding: 5px;
+}
